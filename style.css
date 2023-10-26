@@ -240,3 +240,21 @@ header {
 .login-register p a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    header {
+        font-size: 24px;
+    }
+    nav {
+        font-size: 18px;
+    }
+    nav li {
+        margin: 0 5px;
+    }
+    main {
+        padding: 10px;
+    }
+    footer {
+        font-size: 14px;
+    }
+}
